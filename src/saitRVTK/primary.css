@@ -77,13 +77,13 @@ body {
     margin-left: 15%;
   }*/
 }
-a {
+.a-mtstopolozh {
   color: rgb(0, 186, 47); /* Цвет текста ссылки */
   text-decoration: none; /* Убираем подчеркивание по умолчанию */
 }
 
 /* Стиль для ссылки при наведении курсора */
-a:hover {
+.a-mtstopolozh:hover {
   color: rgb(0, 166, 255); /* Новый цвет текста при наведении */
   text-decoration: underline; /* Добавляем подчеркивание при наведении */
 }
@@ -264,16 +264,46 @@ a:hover {
 .fartuk{
   margin-top: 50px;
   width: 1480px;
-  height: 500px;
+  height: 600px;
   background: linear-gradient(to bottom,rgb(174, 176, 181), blue, rgb(123, 154, 224));
   z-index: 4;
 }
 
 .logorvtk{
   float: right;
-  margin-top: 70px;
+  margin-top: 10px;
   margin-right: 30px;
-  width: 400px;
-  height: 400px;
-  opacity: 0.7;
+  width: 500px;
+  height: 500px;
+  opacity: 0.5;
+}
+.Rvtk-2024{
+  float: right;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+ul {
+  list-style-type: none;
+}
+.ylitca{
+  float: left;
+}
+.nomera{
+  margin-left: -600px;
+  margin-top: -215px;
+}
+.soc-sety{
+margin-left: 150px;
+margin-top: -415px;
+}
+.a-soc-sety{
+  color: white; /* Цвет текста ссылки */
+}
+.a-soc-sety:hover {
+  color: grey; /* Новый цвет текста при наведении */
+  text-decoration: underline;
+}
+.xz{
+  margin-top: -215px;
+  margin-left: 750px;
 }
