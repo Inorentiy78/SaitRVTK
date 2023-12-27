@@ -42,7 +42,7 @@ const [isZoomed, setIsZoomed] = useState(false);
                      карьере! ВЫСШАЯ  ТЕХНИЧЕСКАЯ ШКОЛА была  создана в 2008 году,  и уже 2016 году переименовано в Республиканский 
                      высший технический колледж (далее - РВТК).</strong> </div>
                   
-                  <div className='mestopolozhtext'>РВТК расположен в исторической части города Уральска, по адресу <a href='https://2gis.kz/uralsk/firm/70000001024859345'>ул. Кайрата Жумагалиева 20/1.</a>
+                  <div className='mestopolozhtext'>РВТК расположен в исторической части города Уральска, по адресу <a className='a-mtstopolozh' href='https://2gis.kz/uralsk/firm/70000001024859345'>ул. Кайрата Жумагалиева 20/1.</a>
  Расположение  РВТК в самом центре города,  даёт преимущества в транспортной развязке, и представляет удобства для наших студентов.
                   </div>
                   <div className='nashKolledj'>
@@ -98,6 +98,36 @@ const [isZoomed, setIsZoomed] = useState(false);
       </div>
       <div className='fartuk'>
         <img className='logorvtk' src={logoRVTK}/>
+       
+
+</div>
+<div className='soc-sety'>
+Социальные сети:
+<ul >
+<li><a className='a-soc-sety' href='rvtk@mail.kz'> Email </a></li>
+<li><a className='a-soc-sety' href='https://www.instagram.com/rvtk_07?igsh=dDA0dmxmczBndHhq'> Instagram </a></li>
+<li><a className='a-soc-sety' href='https://www.tiktok.com/@rvtk_07?_t=8iXLhQCxpHq&_r=1'> Tik Tok </a></li>
+<li><a className='a-soc-sety' href='https://rvtk.edu.kz/'> Official sait </a></li>
+</ul>
+</div>
+<div className='nomera'>Приемная комиссия <ul>
+                  <li> +7 705-212-16-07</li>
+                   <li>+7-776-919-76-27</li>
+                   <li>+7 (7112) 25-50-52</li>
+                   <li>+7 (7112) 51-35-70</li></ul>
+</div>
+<div >
+<ul className='xz'>
+<li>О нас:</li>
+<li>О колледже</li>
+<li>Студенту</li>
+<li>Абитуриенту</li>
+<li>Контакты</li>
+</ul>
+<div className='ylitca'> 09000 Западно-Казахстанская область,город Уральск, улица Кайрата Жумагалиева 20/1 </div>
+<div className='Rvtk-2024'>
+©Rvtk 2024
+</div>
       </div>
       </div>
   );
