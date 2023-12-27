@@ -104,7 +104,7 @@ const [isZoomed, setIsZoomed] = useState(false);
 <div className='soc-sety'>
 Социальные сети:
 <ul >
-<li><a className='a-soc-sety' href='rvtk@mail.kz'> Email </a></li>
+<li><a className='a-soc-sety' href='https://mail.kz/ru'> Email: </a><p> vtsh_08@mail.ru</p></li>
 <li><a className='a-soc-sety' href='https://www.instagram.com/rvtk_07?igsh=dDA0dmxmczBndHhq'> Instagram </a></li>
 <li><a className='a-soc-sety' href='https://www.tiktok.com/@rvtk_07?_t=8iXLhQCxpHq&_r=1'> Tik Tok </a></li>
 <li><a className='a-soc-sety' href='https://rvtk.edu.kz/'> Official sait </a></li>
